@@ -127,6 +127,8 @@ code, pre, #install .shell {
 #install .shell p {
     margin: 0;
     padding: 2px 20px;
+    text-indent: -2.4em;
+    margin-left: 2.4em;
 }
 #install .shell .pwd    { color: #f0ad4e; }
 #install .shell .prompt { color: #d9534f; }
