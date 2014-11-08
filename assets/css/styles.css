@@ -216,6 +216,7 @@ code, pre, #install .shell {
     padding:          15px;
     background-color: #eaeaea;
     border-bottom:    1px solid #ddd;
+    line-height:      10px;
 }
 
 #hero .social {
@@ -224,10 +225,10 @@ code, pre, #install .shell {
 
 .social > div                { display: inline-block; }
 .social > div.github-fork    { margin-left: -10px; }
-.social > div.twitter-follow { margin-left: 2px;   }
-.social > div.twitter-share  { margin-left: 4px;   }
-.social > div.googleplus-one { margin-left: -4px;  }
-.social > div.facebook-like  { margin-left: -14px; }
+.social > div.twitter-follow { margin-left: 1px;   }
+.social > div.twitter-share  { margin-left: 3px;   }
+.social > div.googleplus-one { margin-left: -5px;  }
+.social > div.facebook-like  { margin-left: -11px; }
 
 
 
