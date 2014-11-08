@@ -8,6 +8,13 @@
       </p>
       <p><code>\Psy\Shell::debug(get_defined_vars());</code></p>
 
+  - title: Name <em>all</em> the spaces
+    img:   /assets/img/namespaces.jpg
+    body:  |
+      <p>
+      Most PHP shells are terrible at  namespaces. PsySH does just what you'd expect.
+      </p>
+
   # - title: Automatic semicolon insertion
   #   body:  |
   #     …
