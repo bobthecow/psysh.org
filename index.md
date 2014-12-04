@@ -36,12 +36,15 @@ To use PsySH as a debugger, install it as a Composer dependency or include the P
 ```php
 <?php
 require('/path/to/psysh');
+?>
 ```
 
 Then, drop this line into your script where you'd like to have a breakpoint:
 
 ```php
+<?php
 \Psy\Shell::debug(get_defined_vars());
+?>
 ```
 
 When your script reaches this point, execution will be suspended and you'll be dropped into a PsySH shell. Your program state is loaded and available for you to inspect and experiment with.
@@ -49,8 +52,11 @@ When your script reaches this point, execution will be suspended and you'll be d
 Pro Tip™: You don't have to use `get_defined_vars`… You can pass anything you want in as your debugging context:
 
 ```php
+<?php
 \Psy\Shell::debug(['app' => $myApp]);
+?>
 ```
+
 <a class="section-head" id="configure"></a>
 
 ## Configuration
@@ -100,4 +106,5 @@ return array(
         new \Psy\Command\ParseCommand,
     ),
 );
+?>
 ```
