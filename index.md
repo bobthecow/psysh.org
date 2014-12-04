@@ -57,6 +57,26 @@ Pro Tip™: You don't have to use `get_defined_vars`… You can pass anything y
 ?>
 ```
 
+### Magic Variables
+
+The result of the last (successful) statement is available as `$_`, and the last error or exception is available as `$_e`. You can use these just like you'd use any other variable:
+
+```
+>>> 'wat'
+=> "wat"
+>>> $_
+=> "wat"
+>>> throw new Exception($_)
+Exception with message 'wat'
+>>> $_e
+=> <Exception #000000004db607ea000000017892abf1> {
+       message: "wat",
+       file: "phar:///usr/local/bin/psysh/src/Psy/ExecutionLoop/Loop.php(67) : eval()'d code",
+       line: 1
+   }
+>>>
+```
+
 <a class="section-head" id="configure"></a>
 
 ## Configuration
