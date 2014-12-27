@@ -134,6 +134,28 @@ code, pre, #install .shell {
 #install .shell .prompt { color: #d9534f; }
 #install .shell .cmd    { color: #428bca; }
 #install .shell .args   { color: #5bc0de; }
+#install .instructions {
+    text-align: center;
+    margin-top: -2em;
+}
+#install .instructions a:link,
+#install .instructions a:visited {
+    font-weight: normal;
+    text-decoration: underline;
+    color: #666;
+}
+#install .instructions a:hover,
+#install .instructions a:active {
+    color: #f3f3f3;
+}
+#install .instructions code {
+    color: inherit;
+    background-color: inherit;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
 
 .feature {
     padding: 80px 0;
