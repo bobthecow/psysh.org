@@ -43,7 +43,15 @@ Then, drop this line into your script where you'd like to have a breakpoint:
 
 ```php
 <?php
-\Psy\Shell::debug(get_defined_vars());
+eval(\Psy\sh());
+?>
+```
+
+… which is just a shorter way of saying:
+
+```php
+<?php
+extract(\Psy\Shell::debug(get_defined_vars()));
 ?>
 ```
 
@@ -53,9 +61,19 @@ Pro Tip™: You don't have to use `get_defined_vars`… You can pass anything y
 
 ```php
 <?php
-\Psy\Shell::debug(['app' => $myApp]);
+$result = \Psy\Shell::debug(['app' => $myApp]);
 ?>
 ```
+
+If you're starting the debug shell from inside a class context, you can pass an optional second argument to add a bound object to the shell. This is super useful because you'll be able to call things on `$this` inside your debug shell, and you will have full access to private and protected members of your current context:
+
+```php
+<?php
+\Psy\Shell::debug(get_defined_vars(), $this);
+?>
+```
+
+If you call the shortcut `eval(\Psy\sh())` from inside a class context, you'll get `$this` bound for free.
 
 ### Magic Variables
 
