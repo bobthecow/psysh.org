@@ -185,8 +185,11 @@ pre,
 .feature-text {
   padding: 80px;
 }
-.feature img {
-  border: 1px solid #DDD;
+.feature-img-col:first-child {
+  margin-left: -8.333333333333332%;
+}
+.feature-img-col:last-child {
+  margin-right: -8.333333333333332%;
 }
 @media (max-width: 767px) {
   .feature-text {
@@ -194,6 +197,12 @@ pre,
   }
   .feature-text:first-child {
     padding-bottom: 40px;
+  }
+  .feature-img-col:first-child {
+    margin-left: 0;
+  }
+  .feature-img-col:last-child {
+    margin-right: 0;
   }
 }
 
@@ -204,12 +213,19 @@ pre,
 }
 
 
+.main-content {
+  max-width: 750px;
+}
 
 
 #tweets {
   border-top: 1px solid #DDD;
   margin: 90px 0;
   padding-top: 60px;
+}
+
+#tweets .container {
+  max-width: 750px;
 }
 
 #tweets .tweet {

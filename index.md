@@ -89,7 +89,7 @@ Exception with message 'wat'
 >>> $_e
 => <Exception #000000004db607ea000000017892abf1> {
        message: "wat",
-       file: "phar:///usr/local/bin/psysh/src/Psy/ExecutionLoop/Loop.php(67) : eval()'d code",
+       file: "phar:///psysh/src/Psy/ExecutionLoop/Loop.php(67) : eval()'d code",
        line: 1
    }
 >>>
