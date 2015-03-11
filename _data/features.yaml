@@ -9,7 +9,7 @@
       <p><code>eval(\Psy\sh());</code></p>
 
   - title: Name <em>all</em> the spaces
-    img:   /assets/img/namespaces.jpg
+    img:   /assets/img/namespace.png
     body:  |
       <p>
       Most PHP shells are terrible at  namespaces. PsySH does just what you'd expect.
@@ -20,7 +20,7 @@
   #     …
 
   - title: Read documentation in context
-    img:   /assets/img/doc.jpg
+    img:   /assets/img/doc.png
     body:  |
       <p>
       Have a question about a core PHP function? Try <code>doc array_map</code>.
@@ -29,7 +29,7 @@
       <p><code>&gt;&gt;&gt; help doc</code></p>
 
   - title: Reflect like a boss
-    img:   /assets/img/ls.jpg
+    img:   /assets/img/ls.png
     body:  |
       <p>
       The <code>list</code> command knows all about your code — and everyone else's. Easily list and search
@@ -39,7 +39,7 @@
 
 
   - title: Use the source!
-    img:   /assets/img/show.jpg
+    img:   /assets/img/show.png
     body:  |
       <p>
       Easily show the source code for any userland object, class, interface, trait, constant, method or property.
@@ -47,7 +47,7 @@
       <p><code>&gt;&gt;&gt; help show</code></p>
 
   - title: Forget to catch that last exception?
-    img:   /assets/img/wtf.jpg
+    img:   /assets/img/wtf.png
     body:  |
       <p>
       No worries, PsySH has your back. We caught it for you, and made it available via the <code>wtf</code> command.
@@ -55,7 +55,7 @@
       <p><code>&gt;&gt;&gt; help wtf</code></p>
 
   - title: Learn from your history <em>and</em> repeat your past
-    img:   /assets/img/hist.jpg
+    img:   /assets/img/hist.png
     body:  |
       <p>Show, search, save and replay your shell history.</p>
       <p><code>&gt;&gt;&gt; help history</code></p>
