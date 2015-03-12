@@ -99,7 +99,7 @@ Exception with message 'wat'
 
 ## Configuration
 
-While PsySH strives to detect the right settings automatically, you might want to configure it yourself. Just add a file to `~/.psysh/rc.php`:
+While PsySH strives to detect the right settings automatically, you might want to configure it yourself. Just add a file to `~/.config/psysh/config.php`:
 
 ```php
 <?php
