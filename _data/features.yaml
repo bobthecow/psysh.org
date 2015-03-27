@@ -8,6 +8,17 @@
       </p>
       <p><code>eval(\Psy\sh());</code></p>
 
+  - title: "Auto<code>[tab][tab]</code>Complete"
+    img:   /assets/img/autocomplete.png
+    body:  |
+      <p>
+      PsySH has tab completion for variable names, functions, classes, methods, properties, and even files!
+      Just start typing, then hit <code>[tab]</code>. But you probably already guessed that.
+      </p>
+      <p>
+      <small>(Tab completion requires Readline- or Libedit-enabled PHP. But you really should have that anyway)</small>
+      </p>
+
   - title: Name <em>all</em> the spaces
     img:   /assets/img/namespace.png
     body:  |
@@ -36,7 +47,6 @@
       all variables, constants, classes, interfaces, traits, functions, methods and properties.
       </p>
       <p><code>&gt;&gt;&gt; help list</code></p>
-
 
   - title: Use the source!
     img:   /assets/img/show.png
