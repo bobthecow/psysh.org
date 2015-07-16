@@ -75,7 +75,7 @@
     body:  |
       <p>
       If the awesome features listed above aren't enough for you, you can write your own commands! PsySH has first-class
-      support for custom commands — just register them in your <code>~/.psysh/rc.php</code>.
+      support for custom commands — just register them in your <code>~/.config/psysh/config.php</code>.
       </p>
 
   # - title: Say something about presenters
