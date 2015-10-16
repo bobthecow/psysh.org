@@ -114,15 +114,28 @@ return array(
     // for Psy shell sessions, you can override it here.
     'pager' => 'more',
 
+    // Sets the maximum number of entries the history can contain.
+    // If set to zero, the history size is unlimited.
+    'historySize' => 0,
+
+    // If set to true, the history will not keep duplicate entries.
+    // Newest entries override oldest.
+    // This is the equivalent of the HISTCONTROL=erasedups setting in bash.
+    'eraseDuplicates' => false,
+
     // By default, PsySH will use a 'forking' execution loop if pcntl is
     // installed. This is by far the best way to use it, but you can override
     // the default by explicitly enabling or disabling this functionality here.
     'usePcntl' => false,
 
     // PsySH uses readline if you have it installed, because interactive input
-    // is pretty awful without it. But you can explicitly disable it if you
-    // hate yourself or something.
+    // is pretty awful without it. But you can explicitly disable it if you hate
+    // yourself or something.
     'useReadline' => false,
+
+    // PsySH automatically inserts semicolons at the end of input if a statement
+    // is missing one. To disable this, set `requireSemicolons` to true.
+    'requireSemicolons' => false,
 
     // "Default includes" will be included once at the beginning of every PsySH
     // session. This is a good place to add autoloaders for your favorite
@@ -144,11 +157,11 @@ return array(
         new \Psy\Command\ParseCommand,
     ),
 
-    // PsySH ships with presenters for scalars, resources, arrays, and objects.
-    // But you're not limited to those presenters. You can enable additional
-    // presenters (like the included MongoCursorPresenter), or write your own!
-    'presenters' => array(
-        new \Psy\Presenter\MongoCursorPresenter,
+    // PsySH uses symfony/var-dumper's casters for presenting scalars, resources,
+    // arrays and objects. You can enable additional casters, or write your own!
+    // See http://symfony.com/doc/current/components/var_dumper/advanced.html#casters
+    'casters' => array(
+        'MyFooClass' => 'MyFooClassCaster::castMyFooObject',
     ),
 
     // You can disable tab completion if you want to. Not sure why you'd want to.
