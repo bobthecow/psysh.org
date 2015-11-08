@@ -264,7 +264,7 @@ pre,
 
 .social {
   text-align: center;
-  padding: 15px;
+  padding: 15px 15px 5px;
   background-color: #EAEAEA;
   border-bottom: 1px solid #DDD;
   line-height: 10px;
@@ -276,6 +276,7 @@ pre,
 
 .social > div {
   display: inline-block;
+  margin-bottom: 10px;
 }
 .social > div.github-fork {
   margin-left: -1px;
