@@ -135,13 +135,19 @@ return array(
 
     // PsySH automatically inserts semicolons at the end of input if a statement
     // is missing one. To disable this, set `requireSemicolons` to true.
-    'requireSemicolons' => false,
+    'requireSemicolons' => true,
+
+    // While PsySH respects the current `error_reporting` level, and doesn't throw
+    // exceptions for all errors, it does log all errors regardless of level. Set
+    // `errorLoggingLevel` to 0 to prevent logging non-thrown errors. Set it to any
+    // valid `error_reporting` value to log only errors which match that level.
+    'errorLoggingLevel' => E_ALL & ~E_NOTICE,
 
     // "Default includes" will be included once at the beginning of every PsySH
     // session. This is a good place to add autoloaders for your favorite
     // libraries.
     'defaultIncludes' => array(
-        __DIR__.'/include/bootstrap.php',
+        __DIR__ . '/include/bootstrap.php',
     ),
 
     // While PsySH ships with a bunch of great commands, it's possible to add
@@ -173,6 +179,14 @@ return array(
         new \Psy\TabCompletion\Matcher\MongoClientMatcher,
         new \Psy\TabCompletion\Matcher\MongoDatabaseMatcher,
     ),
+
+    // If multiple versions of the same configuration or data file exist, PsySH will
+    // use the file with highest precedence, and will silently ignore all others. With
+    // this enabled, a warning will be emitted (but not an exception thrown) if multiple
+    // configuration or data files are found.
+    //
+    // This will default to true in a future release, but is false for now.
+    'warnOnMultipleConfigs' => true,
 );
 ?>
 ```
