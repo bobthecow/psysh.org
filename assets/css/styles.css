@@ -278,16 +278,16 @@ pre,
   display: inline-block;
 }
 .social > div.github-fork {
-  margin-left: -10px;
+  margin-left: -1px;
 }
 .social > div.twitter-follow {
   margin-left: 1px;
 }
 .social > div.twitter-share {
-  margin-left: 3px;
+  margin-left: 17px;
 }
 .social > div.googleplus-one {
-  margin-left: -5px;
+  margin-left: 16px;
 }
 .social > div.facebook-like {
   margin-left: -11px;
