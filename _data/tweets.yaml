@@ -1,7 +1,13 @@
 - |
-  <blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">Psysh <a href="http://t.co/L1yZB0HTfh">http://t.co/L1yZB0HTfh</a> is so good that I&#39;m kinda upset nobody told me enough about it before today <a href="https://twitter.com/hashtag/php?src=hash">#php</a> <a href="https://twitter.com/hashtag/repl?src=hash">#repl</a> <a href="https://twitter.com/hashtag/interactive?src=hash">#interactive</a> <a href="https://twitter.com/hashtag/debugging?src=hash">#debugging</a></p>&mdash; Daniele Alessandri (@JoL1hAHN) <a href="https://twitter.com/JoL1hAHN/status/620669351323127809">July 13, 2015</a></blockquote>
+  <blockquote class="twitter-tweet" data-lang="en"><p lang="es" dir="ltr">Acabo de usar psysh para testear una regex... Tener una &quot;repl&quot; decente en php va bien y todo xD</p>&mdash; Rafa Gómez (@rafaoe) <a href="https://twitter.com/rafaoe/status/691921060187488256">January 26, 2016</a></blockquote>
+- |
+  <blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">how did I develop in PHP without <a href="https://twitter.com/hashtag/psysh?src=hash">#psysh</a>?! best tool I came across in ages, debugging will never be the same again <a href="https://t.co/hWAxwfYnrK">https://t.co/hWAxwfYnrK</a></p>&mdash; Tito Miguel Costa (@titomiguelcosta) <a href="https://twitter.com/titomiguelcosta/status/666322650013257728">November 16, 2015</a></blockquote>
+- |
+  <blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">Just discovered PsySH and I wish I had done so before - this will be saving me an awful lot of grief</p>&mdash; Matthew Daly (@mattbd) <a href="https://twitter.com/mattbd/status/665175305737412608">November 13, 2015</a></blockquote>
 - |
   <blockquote class="twitter-tweet" lang="en"><p lang="zh" dir="ltr">PsySH <a href="http://t.co/GW8CWJadKs">http://t.co/GW8CWJadKs</a>&#10;这个console插件不错，可以像 irb 那样使用 PHP，再也不用为了写几行 PHP 而新建一个.php 文件了</p>&mdash; 徐羿君 (@jun_cn) <a href="https://twitter.com/jun_cn/status/621200999294734336">July 15, 2015</a></blockquote>
+- |
+  <blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">Psysh <a href="http://t.co/L1yZB0HTfh">http://t.co/L1yZB0HTfh</a> is so good that I&#39;m kinda upset nobody told me enough about it before today <a href="https://twitter.com/hashtag/php?src=hash">#php</a> <a href="https://twitter.com/hashtag/repl?src=hash">#repl</a> <a href="https://twitter.com/hashtag/interactive?src=hash">#interactive</a> <a href="https://twitter.com/hashtag/debugging?src=hash">#debugging</a></p>&mdash; Daniele Alessandri (@JoL1hAHN) <a href="https://twitter.com/JoL1hAHN/status/620669351323127809">July 13, 2015</a></blockquote>
 - |
   <blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">Oh awesome! How did I not know about this before!&#10;<a href="http://t.co/htmDUxbKOZ">http://t.co/htmDUxbKOZ</a></p>&mdash; Jack Skinner&#39;; -- (@developerjack) <a href="https://twitter.com/developerjack/status/607044762596732928">June 6, 2015</a></blockquote>
 - |
@@ -23,9 +29,9 @@
 - |
   <blockquote class="twitter-tweet" lang="en"><p>adote nosso amigo PsySH tb! <a href="https://twitter.com/hashtag/psysh?src=hash">#psysh</a> <a href="http://t.co/3eHyCSTQUX">http://t.co/3eHyCSTQUX</a></p>&mdash; Raffael Tancman (@rtancman) <a href="https://twitter.com/rtancman/status/565131029330284544">February 10, 2015</a></blockquote>
 - |
-  <blockquote class="twitter-tweet" lang="en"><p>Just installed Psysh. This thing is AMAZING. PHP devs should definitely check it out</p>&mdash; Ali Smith (@40_thieves) <a href="https://twitter.com/40_thieves/status/561944298250575872">February 1, 2015</a></blockquote>
-- |
   <blockquote class="twitter-tweet" lang="en"><p>If you write PHP, give <a href="http://t.co/1BfPleItau">http://t.co/1BfPleItau</a> a go. It&#39;s awesome.&#10;&#10;&quot;A runtime developer console, interactive debugger and REPL for PHP.&quot;</p>&mdash; Dave Hulbert (@dave1010) <a href="https://twitter.com/dave1010/status/562233223241936899">February 2, 2015</a></blockquote>
+- |
+  <blockquote class="twitter-tweet" lang="en"><p>Just installed Psysh. This thing is AMAZING. PHP devs should definitely check it out</p>&mdash; Ali Smith (@40_thieves) <a href="https://twitter.com/40_thieves/status/561944298250575872">February 1, 2015</a></blockquote>
 - |
   <blockquote class="twitter-tweet" lang="en"><p><a href="https://twitter.com/hashtag/PsySH?src=hash">#PsySH</a> THE most awesome <a href="https://twitter.com/hashtag/php?src=hash">#php</a> <a href="https://twitter.com/hashtag/repl?src=hash">#repl</a> and debug console <a href="http://t.co/hIy0wLNnDw">http://t.co/hIy0wLNnDw</a></p>&mdash; #!/bin/flatline (@___flatline___) <a href="https://twitter.com/___flatline___/status/561182841846128640">January 30, 2015</a></blockquote>
 - |
@@ -79,26 +85,20 @@
 - |
   <blockquote class="twitter-tweet" data-cards="hidden" lang="en"><p><a href="https://t.co/ug4NPPllQK">https://t.co/ug4NPPllQK</a> thank you <a href="https://twitter.com/bobthecow">@bobthecow</a>!</p>&mdash; everzet (@everzet) <a href="https://twitter.com/everzet/statuses/425544022942552064">January 21, 2014</a></blockquote>
 - |
+  <blockquote class="twitter-tweet" lang="en"><p>Great presentation by <a href="https://twitter.com/bobthecow">@bobthecow</a> and a new <a href="https://twitter.com/search?q=%23php&amp;src=hash">#php</a> tool (PsySH) that I need to try. <a href="https://t.co/UYDLpKXanW">https://t.co/UYDLpKXanW</a></p>&mdash; Jeremy Lindblom (@jeremeamia) <a href="https://twitter.com/jeremeamia/statuses/426455324833234944">January 23, 2014</a></blockquote>
+- |
+  <blockquote class="twitter-tweet" lang="en"><p><a href="http://t.co/DWJ8P48TYj">http://t.co/DWJ8P48TYj</a> is the <a href="https://twitter.com/search?q=%23php&amp;src=hash">#php</a> REPL shell we have been waiting for. How to start an interactive shell with a… <a href="http://t.co/R98sEdi6uO">http://t.co/R98sEdi6uO</a></p>&mdash; Barnaby Walters (@BarnabyWalters) <a href="https://twitter.com/BarnabyWalters/statuses/402556037649399808">November 18, 2013</a></blockquote>
+- |
+  <blockquote class="twitter-tweet" lang="en"><p>Interactive debugging for PHP, <a href="http://t.co/PKwjvy2X1x">http://t.co/PKwjvy2X1x</a>, because we can do better than var_dump($data); <a href="https://twitter.com/search?q=%23REPL&amp;src=hash">#REPL</a></p>&mdash; Adrian Kuhn (@akuhn) <a href="https://twitter.com/akuhn/statuses/377663344221507584">September 11, 2013</a></blockquote>
+- |
+  <blockquote class="twitter-tweet" lang="en"><p>I’m now 30% more sane, thanks to Psy Shell. <a href="https://twitter.com/search?q=%23php&amp;src=hash">#php</a> <a href="https://t.co/uGKWGoEyps">https://t.co/uGKWGoEyps</a> /cc <a href="https://twitter.com/bobthecow">@bobthecow</a></p>&mdash; Graham Weldon (@predominant) <a href="https://twitter.com/predominant/statuses/377340368733634560">September 10, 2013</a></blockquote>
+- |
+  <blockquote class="twitter-tweet" lang="en"><p>If you haven&#39;t already tried it, <a href="https://twitter.com/bobthecow">@bobthecow</a> &#39;s PsySH is pretty freaking awesome. &#10;&#10;<a href="http://t.co/8K8Oyii1dP">http://t.co/8K8Oyii1dP</a></p>&mdash; John David Anderson (@raisinbread) <a href="https://twitter.com/raisinbread/statuses/374597445201575936">September 2, 2013</a></blockquote>
+- |
   <blockquote class="twitter-tweet" lang="en"><p>Awesome interactive PHP REPL /cc: <a href="https://twitter.com/jamiehannaford">@jamiehannaford</a> <a href="https://t.co/o6ZxJCJpkq">https://t.co/o6ZxJCJpkq</a></p>&mdash; Glen Campbell (@glenc) <a href="https://twitter.com/glenc/statuses/373155194281787392">August 29, 2013</a></blockquote>
 - |
   <blockquote class="twitter-tweet" lang="en"><p>I definitely need to look at <a href="http://t.co/lS4jgFtcES">http://t.co/lS4jgFtcES</a>, &#39;cause &quot;Even IE has a better interactive shell than php.&quot; - <a href="https://twitter.com/bobthecow">@bobthecow</a> <a href="https://twitter.com/search?q=%23phpundiscovered&amp;src=hash">#phpundiscovered</a></p>&mdash; Michael Crumm (@mcrumm) <a href="https://twitter.com/mcrumm/statuses/373197210483032064">August 29, 2013</a></blockquote>
 - |
-  <blockquote class="twitter-tweet" lang="en"><p>If you haven&#39;t already tried it, <a href="https://twitter.com/bobthecow">@bobthecow</a> &#39;s PsySH is pretty freaking awesome. &#10;&#10;<a href="http://t.co/8K8Oyii1dP">http://t.co/8K8Oyii1dP</a></p>&mdash; John David Anderson (@raisinbread) <a href="https://twitter.com/raisinbread/statuses/374597445201575936">September 2, 2013</a></blockquote>
-- |
-  <blockquote class="twitter-tweet" lang="en"><p>I’m now 30% more sane, thanks to Psy Shell. <a href="https://twitter.com/search?q=%23php&amp;src=hash">#php</a> <a href="https://t.co/uGKWGoEyps">https://t.co/uGKWGoEyps</a> /cc <a href="https://twitter.com/bobthecow">@bobthecow</a></p>&mdash; Graham Weldon (@predominant) <a href="https://twitter.com/predominant/statuses/377340368733634560">September 10, 2013</a></blockquote>
-- |
-  <blockquote class="twitter-tweet" lang="en"><p>Interactive debugging for PHP, <a href="http://t.co/PKwjvy2X1x">http://t.co/PKwjvy2X1x</a>, because we can do better than var_dump($data); <a href="https://twitter.com/search?q=%23REPL&amp;src=hash">#REPL</a></p>&mdash; Adrian Kuhn (@akuhn) <a href="https://twitter.com/akuhn/statuses/377663344221507584">September 11, 2013</a></blockquote>
-- |
-  <blockquote class="twitter-tweet" lang="en"><p><a href="http://t.co/DWJ8P48TYj">http://t.co/DWJ8P48TYj</a> is the <a href="https://twitter.com/search?q=%23php&amp;src=hash">#php</a> REPL shell we have been waiting for. How to start an interactive shell with a… <a href="http://t.co/R98sEdi6uO">http://t.co/R98sEdi6uO</a></p>&mdash; Barnaby Walters (@BarnabyWalters) <a href="https://twitter.com/BarnabyWalters/statuses/402556037649399808">November 18, 2013</a></blockquote>
-- |
   <blockquote class="twitter-tweet" lang="en"><p>PsySH: Proper REPL for PHP! <a href="https://t.co/ZZpgMCHDal">https://t.co/ZZpgMCHDal</a> <a href="https://twitter.com/search?q=%23OSCON&amp;src=hash">#OSCON</a></p>&mdash; Jeff Tilson (@jrtilson) <a href="https://twitter.com/jrtilson/statuses/360510708401717248">July 25, 2013</a></blockquote>
 - |
   <blockquote class="twitter-tweet" lang="en"><p>Favorite <a href="https://twitter.com/search?q=%23OSCON&amp;src=hash">#OSCON</a> presentation so far is <a href="https://twitter.com/bobthecow">@bobthecow</a> on PHP interactive debugging. Check out the REPL loop he built at <a href="http://t.co/tjyAERfRHA">http://t.co/tjyAERfRHA</a></p>&mdash; Scott Small (@smallsco) <a href="https://twitter.com/smallsco/statuses/360513704141393922">July 25, 2013</a></blockquote>
-- |
-  <blockquote class="twitter-tweet" lang="en"><p>Great presentation by <a href="https://twitter.com/bobthecow">@bobthecow</a> and a new <a href="https://twitter.com/search?q=%23php&amp;src=hash">#php</a> tool (PsySH) that I need to try. <a href="https://t.co/UYDLpKXanW">https://t.co/UYDLpKXanW</a></p>&mdash; Jeremy Lindblom (@jeremeamia) <a href="https://twitter.com/jeremeamia/statuses/426455324833234944">January 23, 2014</a></blockquote>
-- |
-  <blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">Just discovered PsySH and I wish I had done so before - this will be saving me an awful lot of grief</p>&mdash; Matthew Daly (@mattbd) <a href="https://twitter.com/mattbd/status/665175305737412608">November 13, 2015</a></blockquote>
-- |
-  <blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">how did I develop in PHP without <a href="https://twitter.com/hashtag/psysh?src=hash">#psysh</a>?! best tool I came across in ages, debugging will never be the same again <a href="https://t.co/hWAxwfYnrK">https://t.co/hWAxwfYnrK</a></p>&mdash; Tito Miguel Costa (@titomiguelcosta) <a href="https://twitter.com/titomiguelcosta/status/666322650013257728">November 16, 2015</a></blockquote>
-- |
-  <blockquote class="twitter-tweet" data-lang="en"><p lang="es" dir="ltr">Acabo de usar psysh para testear una regex... Tener una &quot;repl&quot; decente en php va bien y todo xD</p>&mdash; Rafa Gómez (@rafaoe) <a href="https://twitter.com/rafaoe/status/691921060187488256">January 26, 2016</a></blockquote>
