@@ -105,11 +105,10 @@ While PsySH strives to detect the right settings automatically, you might want t
 <?php
 
 return array(
-
     // In PHP 5.4+, PsySH will default to your `cli.pager` ini setting. If this
     // is not set, it falls back to `less`. It is recommended that you set up
     // `cli.pager` in your `php.ini` with your preferred output pager.
-    //
+    // 
     // If you are running PHP 5.3, or if you want to use a different pager only
     // for Psy shell sessions, you can override it here.
     'pager' => 'more',
@@ -137,6 +136,13 @@ return array(
     // is missing one. To disable this, set `requireSemicolons` to true.
     'requireSemicolons' => true,
 
+    // PsySH uses a couple of UTF-8 characters in its own output. These can be
+    // disabled, mostly to work around code page issues. Because Windows.
+    //
+    // Note that this does not disable Unicode output in general, it just makes
+    // it so PsySH won't output any itself.
+    'useUnicode' => false,
+
     // While PsySH respects the current `error_reporting` level, and doesn't throw
     // exceptions for all errors, it does log all errors regardless of level. Set
     // `errorLoggingLevel` to 0 to prevent logging non-thrown errors. Set it to any
@@ -154,7 +160,6 @@ return array(
     // your own for even more awesome. Any Psy command added here will be
     // available in your Psy shell sessions.
     'commands' => array(
-
         // The `parse` command is a command used in the development of PsySH.
         // Given a string of PHP code, it pretty-prints the
         // [PHP Parser](https://github.com/nikic/PHP-Parser) parse tree. It
@@ -187,6 +192,10 @@ return array(
     //
     // This will default to true in a future release, but is false for now.
     'warnOnMultipleConfigs' => true,
+
+    // By default, output contains colors if support for them is detected. To override:
+    'colorMode' => \Psy\Configuration::COLOR_MODE_FORCED,   // force colors in output
+    'colorMode' => \Psy\Configuration::COLOR_MODE_DISABLED, // disable colors in output
 );
 ?>
 ```
