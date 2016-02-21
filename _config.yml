@@ -2,4 +2,6 @@ name:        PsySH
 safe:        true
 lsi:         false
 highlighter: rouge
-markdown:    redcarpet
+markdown:    kramdown
+kramdown:
+  input: GFM
