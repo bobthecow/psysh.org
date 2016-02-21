@@ -1,5 +1,5 @@
 name:        PsySH
 safe:        true
 lsi:         false
-highlighter: pygments
+highlighter: rouge
 markdown:    redcarpet
