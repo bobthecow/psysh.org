@@ -99,7 +99,88 @@ Exception with message 'wat'
 
 ## Configuration
 
-While PsySH strives to detect the right settings automatically, you might want to configure it yourself. Just add a file to `~/.config/psysh/config.php` (or `C:\Users\{USER}\AppData\Roaming\PsySH\config.php` on Windows):
+While PsySH strives to detect the right settings automatically, you might want to configure it yourself. Just add a file to `~/.config/psysh/config.php` (or `C:\Users\{USER}\AppData\Roaming\PsySH\config.php` on Windows).
+
+### ProTips™
+
+PsySH config files are PHP, so you can do pretty much anything you want in there.
+
+#### Automatically load Composer dependencies
+
+Add something like this to the top of your PsySH config:
+
+```php
+<?php
+
+// Automatically autoload Composer dependencies
+if (is_file(getcwd() . '/vendor/autoload.php')) {
+    require_once(getcwd() . '/vendor/autoload.php');
+}
+```
+
+This shouldn't be necessary if you've installed PsySH as a Composer dependency (or dev dependency) for your project. It will already be using the Composer autoloader in that case.
+
+#### Use local config files
+
+You can easily use project-specific config files, without needing to specify a `--config` param. Just add this to the top of your PsySH config:
+
+```php
+<?php
+
+// Use local config, if available
+if (is_file(getcwd() . '/.psysh.php')) {
+    return require(getcwd() . '/.psysh.php');
+}
+
+// Fall back to global config
+return [
+    'startupMessage' => '<info>Using global config</info>',
+
+    'commands' => [
+        new \Psy\Command\ParseCommand,
+    ],
+];
+```
+
+… then drop a local `.psysh.php` config file in your project directory:
+
+```php
+<?php
+
+return [
+    'startupMessage' => sprintf('<info>Using local config: %s</info>', __FILE__),
+];
+```
+
+Note that this example _returns_ the result, so you can fall back to global config if the local one isn't available. If you want to merge configurations, or even make it cascading (like `.gitignore`) you can do that, too:
+
+ ```php
+ <?php
+
+ // Global config
+$config = [
+    'startupMessage' => '<info>Using global config</info>',
+
+    'commands' => [
+        new \Psy\Command\ParseCommand,
+    ],
+];
+
+// Inherit config from all parent directories, like .gitignore does
+$chunks = explode('/', __DIR__);
+while (count($chunks) !== 0) {
+    $path[] = array_shift($chunks);
+    $file = implode('/', $path) . '/.psysh.php';
+    if (is_file($file)) {
+        $localConfig = require($file);
+        $config = array_merge($config, $localConfig);
+    }
+}
+
+return $config;
+```
+
+### All the options
 
 ```php
 <?php
