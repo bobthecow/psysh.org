@@ -2,6 +2,8 @@
 layout: default
 title:  PsySH
 ---
+<a class="section-head" id="docs"></a>
+
 # [PsySH manual](https://github.com/bobthecow/psysh/wiki/Home)
 
 ### [💾 Installation](https://github.com/bobthecow/psysh/wiki/Installation)
