@@ -127,17 +127,21 @@ pre,
   text-shadow: none;
   font-size: 120%;
 }
-#install .shell p {
+#install .shell div {
   margin: 0;
   padding: 2px 20px;
   text-indent: -2.4em;
   margin-left: 2.4em;
 }
-#install .shell .pwd {
+#install .shell .cmd:after {
   color: #F0AD4E;
+  content: '~ ';
+  margin-right: 0.5em;
+  float: left;
 }
-#install .shell .prompt {
+#install .shell .cmd:before {
   color: #D9534F;
+  content: '$ ';
 }
 #install .shell .cmd {
   color: #428BCA;
