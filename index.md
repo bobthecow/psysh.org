@@ -9,6 +9,7 @@ title:  PsySH
 
 ### [💾 Installation](https://github.com/bobthecow/psysh/wiki/Installation)
  * [📕 PHP manual installation](https://github.com/bobthecow/psysh/wiki/PHP-manual)
+ * <a href="https://github.com/bobthecow/psysh/wiki/Windows"><img src="https://user-images.githubusercontent.com/53660/40878809-407e8368-664b-11e8-8455-f11602c41dfe.png" width="18"> Windows</a>
 
 ### [🖥 Usage](https://github.com/bobthecow/psysh/wiki/Usage)
  * [✨ Magic variables](https://github.com/bobthecow/psysh/wiki/Magic-variables)
