@@ -43,10 +43,10 @@
     img:   /assets/img/ls.png
     body:  |
       <p>
-      The <code>list</code> command knows all about your code — and everyone else's. Easily list and search
+      The <code>ls</code> command knows all about your code — and everyone else's. Easily list and search
       all variables, constants, classes, interfaces, traits, functions, methods and properties.
       </p>
-      <p><code>&gt;&gt;&gt; help list</code></p>
+      <p><code>&gt;&gt;&gt; help ls</code></p>
 
   - title: Use the source!
     img:   /assets/img/show.png
