@@ -8,7 +8,7 @@ title:  PsySH
 # [PsySH manual](https://github.com/bobthecow/psysh/wiki/Home)
 
 ### [💾 Installation](https://github.com/bobthecow/psysh/wiki/Installation)
- * [📕 PHP manual installation](https://github.com/bobthecow/psysh/wiki/PHP-manual)
+ * [📕 PHP manual](https://github.com/bobthecow/psysh/wiki/PHP-manual)
  * [🤓 Windows](https://github.com/bobthecow/psysh/wiki/Windows)
 
 ### [🖥 Usage](https://github.com/bobthecow/psysh/wiki/Usage)
