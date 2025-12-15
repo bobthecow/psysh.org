@@ -15,6 +15,7 @@ title:  PsySH
  * [⌨️ Command line options](https://github.com/bobthecow/psysh/wiki/CLI-options)
  * [✨ Magic variables](https://github.com/bobthecow/psysh/wiki/Magic-variables)
  * [⏳ Managing history](https://github.com/bobthecow/psysh/wiki/History)
+ * [🔄 Code reloading](https://github.com/bobthecow/psysh/wiki/Code-reloading)
  * [💲 System shell integration](https://github.com/bobthecow/psysh/wiki/Shell-integration)
  * [🎥 Tutorials & guides](https://github.com/bobthecow/psysh/wiki/Tutorials)
  * [🐛 Troubleshooting](https://github.com/bobthecow/psysh/wiki/Troubleshooting)
