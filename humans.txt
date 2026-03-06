@@ -1,10 +1,9 @@
-/* ME */
+# Me
 
-  Psy Shell is a project by Justin Hileman.
-  It makes your PHP happier.
-  You can find it at https://github.com/bobthecow/psysh
+Psy Shell is a project by Justin Hileman. It makes your PHP happier.
 
-/* SITE */
+You can find it at https://github.com/bobthecow/psysh
 
-  This site is powered by Jekyll, Git, GitHub Pages and Sublime Text.
-  You should try 'em all.
+# Site
+
+This ~~abomination~~ site is powered by PHP-WASM, xterm.js, and the literal psysh binary.

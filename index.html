@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="/coi-serviceworker.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PsySH, A runtime developer console, interactive debugger and REPL for PHP</title>
+  <meta name="description" content="PsySH is a runtime developer console, interactive debugger and REPL for PHP. Try it right in your browser!">
+  <meta property="og:title" content="PsySH">
+  <meta property="og:description" content="A runtime developer console, interactive debugger and REPL for PHP. Try it in your browser!">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://psysh.org">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="PsySH">
+  <meta name="twitter:description" content="A runtime developer console, interactive debugger and REPL for PHP. Try it in your browser!">
+  <link rel="preload" href="/fonts/MonaspaceArgonVarVF.woff2" as="font" type="font/woff2" crossorigin>
+  <style>
+    #static-fallback { display: none; }
+  </style>
+  <noscript>
+    <style>
+      psysh-terminal { display: none; }
+      #static-fallback { display: block; }
+    </style>
+  </noscript>
+  <script type="module" crossorigin src="/assets/main-BZQWCg7q.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/main-KF7eMX0E.css">
+</head>
+<body>
+  <psysh-terminal theme="dark" config="config.php"></psysh-terminal>
+
+  <div id="static-fallback">
+    <h1>Psy<span>SH</span></h1>
+    <p class="tagline">A runtime developer console, interactive debugger and REPL for PHP.</p>
+
+    <h2>Install</h2>
+    <p>Download directly:</p>
+    <pre>wget https://psysh.org/psysh
+chmod +x psysh
+./psysh</pre>
+    <p>Or install via Composer:</p>
+    <pre>composer require psy/psysh</pre>
+    <p>Or install globally:</p>
+    <pre>composer global require psy/psysh</pre>
+
+    <h2>Features</h2>
+    <ul>
+      <li>A powerful interactive REPL (Read-Eval-Print Loop)</li>
+      <li>Built-in <code>doc</code> command for inline PHP documentation</li>
+      <li>The <code>show</code> command to view source code for any function, class, or method</li>
+      <li>Tab completion for classes, functions, variables, and more</li>
+      <li>An interactive debugger; drop <code>eval(\Psy\sh())</code> anywhere in your code</li>
+      <li>Reflection and introspection with <code>ls</code>; explore any class, object, or namespace</li>
+      <li>Exception handling; forgot to catch one? Use <code>wtf</code> to see it</li>
+      <li>Proper namespace support; most PHP shells are terrible at this</li>
+      <li>Show, search, save, and replay your shell history</li>
+      <li>Laravel Tinker, Drush, WP-CLI, and other framework integrations</li>
+    </ul>
+
+    <h2>Documentation</h2>
+    <ul>
+      <li><a href="https://github.com/bobthecow/psysh/wiki">PsySH Wiki</a></li>
+      <li><a href="https://github.com/bobthecow/psysh/wiki/Configuration">Configuration Guide</a></li>
+      <li><a href="https://github.com/bobthecow/psysh/wiki/Commands">Built-in Commands</a></li>
+      <li><a href="https://github.com/bobthecow/psysh">GitHub Repository</a></li>
+    </ul>
+
+    <h2>About</h2>
+    <p>
+      PsySH is created and maintained by <a href="https://github.com/bobthecow">Justin Hileman</a>.
+      It is open source under the <a href="https://github.com/bobthecow/psysh/blob/main/LICENSE">MIT License</a>.
+    </p>
+    <p>
+      This interactive version runs PHP in your browser using <a href="https://github.com/nicolo-ribaudo/phar-wasm">PHP-WASM</a> and <a href="https://xtermjs.org">xterm.js</a>.
+    </p>
+    <p class="prompt">
+      Enable JavaScript for the interactive terminal experience!
+    </p>
+  </div>
+
+</body>
+</html>

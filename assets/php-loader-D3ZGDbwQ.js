@@ -1,0 +1,1 @@
+var e="/assets/php_8_3-Bo3c6KIE.wasm";var n=Object.freeze({__proto__:null,getPHPLoaderModule:async function(){const n=await import("./php_8_3-CB6Suvso.js"),t=e;return{init:n.init,dependencyFilename:t,dependenciesTotalSize:n.dependenciesTotalSize??25078207}}});export{e as d,n as p};
