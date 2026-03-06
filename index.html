@@ -23,7 +23,7 @@
       #static-fallback { display: block; }
     </style>
   </noscript>
-  <script type="module" crossorigin src="/assets/main-BZQWCg7q.js"></script>
+  <script type="module" crossorigin src="/assets/main-CNr4wltN.js"></script>
   <link rel="stylesheet" crossorigin href="/assets/main-KF7eMX0E.css">
 </head>
 <body>
@@ -73,9 +73,11 @@ chmod +x psysh
     <p>
       This interactive version runs PHP in your browser using <a href="https://github.com/nicolo-ribaudo/phar-wasm">PHP-WASM</a> and <a href="https://xtermjs.org">xterm.js</a>.
     </p>
-    <p class="prompt">
-      Enable JavaScript for the interactive terminal experience!
-    </p>
+    <noscript>
+      <p class="prompt">
+        Enable JavaScript for the interactive terminal experience!
+      </p>
+    </noscript>
   </div>
 
 </body>
